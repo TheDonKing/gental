@@ -1,10 +1,10 @@
 <?php
-$to = "heliogracie@mail.ru";
-$from = "heliogracie@mail.ru";
+$to = "clinic@g-dental.ru";
+$from = "clinic@g-dental.ru";
 $successPage = "index.html";
 
 $name = $_POST['name'];
-$subject = 'Заявка с сайта Gentle Dental';
+$subject = 'Акция бесплатные услуги с сайта Gentle Dental';
 $phoneNumber = $_POST['phoneNumber'];
 
 $name = stripslashes($name);

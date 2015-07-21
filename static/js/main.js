@@ -1,7 +1,16 @@
 $(document).ready(function() {
+    function addBaloon() {
+        var itemClass = "addressBox";
+        $(".ymaps-point-overlay").append('<div class="' + itemClass + '"></div>');
+        $(".addressBox").append("<p>РД, г.Махачкала, ул. Нурадилова, 94</p>");
+        $(".addressBox").append("<p>Режим работы: Пн-Сб 09:00 до 19:00</p>")
+    }
+
+    setTimeout(addBaloon, 5000);
+
     $(".countdown").countEverest({
-        day: 1,
-        month: 8,
+        day: 31,
+        month: 12,
         year: 2014,
         daysLabel: "Дней",
         dayLabel: "Дней",
@@ -14,8 +23,8 @@ $(document).ready(function() {
     });
 
     $(".countdown-2").countEverest({
-        day: 1,
-        month: 8,
+        day: 31,
+        month: 12,
         year: 2014,
         daysLabel: "Дней",
         dayLabel: "Дней",
@@ -30,16 +39,14 @@ $(document).ready(function() {
     slidering({
         sliderBlock:    ".slidering",
         sliderIn:       ".inslide > div",
-        nextArr:        ".next-arr",  
-        prewArr:        ".prev-arr", 
+        nextArr:        ".next-arr",
+        prewArr:        ".prev-arr",
         slideAmount:    $(".slidering .inslide > div > div.item").size(),
         slideWidth:     240,
         duration:       600,
         show:           4,
         auto:           false
     });
-
-    $('.facts-count').countTo();
 
     $('.free-services-popup-link').magnificPopup({
         closeBtnInside:true,

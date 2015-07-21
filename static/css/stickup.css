@@ -1,0 +1,29 @@
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: relative;
+  z-index: 15;
+
+}
+
+.navbar.navbar-inverse.navbar-static-top {
+  background: #fff;
+  border-color: #398439;
+}
+.navbar.navbar-inverse.navbar-static-top a{
+  color:#05b4cd;
+}
+.navbar.navbar-inverse.navbar-static-top a:hover{
+  color:#fff;
+  background:#05b4cd;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus{
+  background:#05b4cd;
+    color: #fff;
+}
+
+
+

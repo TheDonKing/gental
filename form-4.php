@@ -3,13 +3,11 @@ $to = "clinic@g-dental.ru";
 $from = "clinic@g-dental.ru";
 $successPage = "index.html";
 
-$name = $_POST['name'];
-$subject = 'Заявка с сайта Gentle Dental';
+$subject = 'Акция бесплатные услуги с сайта Gentle Dental';
 $phoneNumber = $_POST['phoneNumber'];
 
-$name = stripslashes($name);
 $phoneNumber = stripslashes($phoneNumber);
-$message = "Имя: $name <br /> Номер: $phoneNumber";
+$message = "Номер: $phoneNumber";
 $headers = array
 (
     'Content-Type: text/html; charset="UTF-8";',
@@ -18,7 +16,7 @@ $headers = array
     'Return-Path: ' . $from,
 );
 
-if (empty($phoneNumber) || empty($name)){
+if (empty($phoneNumber)){
     print "Поля не должны быть пустыми.<br>Пожалуйста заполните все поля.";
 }
 else {
