@@ -44,7 +44,7 @@ $(document).ready(function() {
         slideAmount:    $(".slidering .inslide > div > div.item").size(),
         slideWidth:     240,
         duration:       600,
-        show:           4,
+        show:           2,
         auto:           false
     });
 
@@ -56,10 +56,22 @@ $(document).ready(function() {
 
     $(".slider3d .c-wrapper").carouFredSel({
         height: 510,
+        responsiveClass: true,
         items: {
             visible: 3,
-            minimum: 3
+            minimum: 2
         },
+        responsive:{
+            600:{
+                visible: 2,
+                minimum: 2
+            },
+            0: {
+                visible: 2,
+                minimum: 2
+            }
+        },
+
         scroll: 1,
         auto: false,
         prev: {
