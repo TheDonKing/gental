@@ -401,70 +401,10 @@ font-size: 28px;
 .services p {
     width: 200px;
     margin: 0 auto;
+    padding-top:20px;
     font-family: 'MyriadPro-Light';
 }
 
-.services p span {
-    font-family: 'MyriadPro-Regular';
-}
-
-.slidering {
-    width: 975px;
-    position: relative;
-    margin: 96px auto;
-}
-
-.inslide {
-    height: 330px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-
-.inslide > div {
-    width: 10000px;
-}
-
-.inslide .item {
-    position: relative;
-    float: left;
-    margin: 0 14px 0 0;
-}
-
-.item p {
-    width: 200px;
-    position: absolute;
-    color: #fff;
-    font-size: 30px;
-    text-align: center;
-}
-
-.item img {
-    width: 230px;
-    height: 230px;
-}
-
-.next-arr {
-    background-position: -244px -284px;
-    width: 55px;
-    height: 88px;
-    opacity: .9;
-    position: absolute;
-    top: 65px;
-    right: -90px;
-    cursor: pointer;
-}
-
-.prev-arr {
-    background-position: -187px -284px;
-    width: 55px;
-    height: 88px;
-    opacity: .9;
-    position: absolute;
-    top: 65px;
-    left: -115px;
-    cursor: pointer;
-}
 
 .team {
     width: 760px;
