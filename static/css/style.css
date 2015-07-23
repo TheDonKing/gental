@@ -59,6 +59,22 @@ p {
 h1 {
     font-family: 'PT Sans', sans-serif;
 }
+img {
+    /* Responsive images (ensure images don't scale beyond their parents) */
+
+    max-width: 100%;
+    /* Part 1: Set a maxium relative to the parent */
+
+    width: auto\9;
+    /* IE7-8 need help adjusting responsive images */
+
+    height: auto;
+    /* Part 2: Scale the height according to the width, otherwise you get stretching */
+
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
 .row{
     max-width:980px;
     overflow: hidden;
@@ -239,105 +255,74 @@ font-size: 28px;
     padding: 7px;
 }
 
-.free-services-popup-link {
-    text-decoration: none;
-    color: #fcc83a;
-}
 
-.free-services-popup-link:hover {
-    color: #d1a325;
-}
-
-.free-services {
-/*    background: #fff;
-    width: 800px;
-    margin: 0 auto;
-    padding: 40px;*/
-}
-
-.free-services .mfp-img {
-    max-height: 700px;
-}
-
-.free-services h3 {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.free-services table {
+.services {
     width: 100%;
-    border-collapse: collapse;
-}
-
-.free-services table tbody tr {
-    border-bottom: 2px dotted #ccc;
-}
-
-.free-services table tbody tr td {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 18px;
-    vertical-align: middle;
-    padding: 12px 10px;
-}
-
-.free-services table tbody tr td:nth-child(n) {
-    width: 220px;
-}
-
-.free-services table tbody tr .dot-bot {
-    width: auto;
-    padding: 16px 0 0 0;
-}
-
-.social {
-    width: 50px;
-    position: absolute;
-    top: 615px;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.social li {
-    display: inline-block;
-}
-
-.social li:not(:first-child) {
-    margin-left: 15px;
-}
-
-.social li a {
-    display: block;
-    width: 50px;
-    height: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    border-radius: 50px;
-    border: 1px solid #fff;
+    height:auto;
+    background: #49b7dd;
     color: #fff;
-    font-size: 25px;
-    line-height: 51px;
-    text-align: center;
+    font-size: 36px;
+    overflow: hidden;
+}
+
+.services p {
+    width: 200px;
+    margin: 0 auto;
+    padding-top:30px;
+    font-family: 'MyriadPro-Light';
 }
 
 .how-we-work {
-    height: 188px;
+    height:auto;
 }
-.col {
-    width: 300px;
-    height: 100px;
+.how-we-work .hr{
+    width: 90%;
+    margin: 0 auto;
+    background-clip: border-box;
+    height: 45px;
+    /*background: url("../img/hr.jpg") no-repeat center;*/
+
+}
+.how-we-work .hr img{
+float: left;
+    width: 10%;
+
+}
+.how-we-work  hr{
+   width:40%;
     float: left;
+    margin: 22.5px 2%;
+    height: 1px;
+    color: #05b4cd;
+    background-color:#05b4cd ;
+    border: none;
+
 }
 
-.col:nth-child(even) {
-    margin-left: 75px;
+.how-we-work h2 {
+    color: #1a8dc1;
+    font-family: "MyriadPro-Light";
+    font-size: 36px;
+    margin-top: 40px;
+    text-align: center;
 }
 
-.icon-feature-horizontal {
-    display: table;
+.how-we-work .ch-grid {
+    padding: 0;
+    list-style: outside none none;
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    width:100%;
+}
+.how-we-work .ch-grid:after {
+    clear: both;
+}
+.how-we-work .ch-grid li {
+    width: 175px;
+    height: 173px;
+    display: inline-block;
+    margin:30px;
 }
 
 .icon-description {
@@ -390,39 +375,37 @@ font-size: 28px;
     height: 65px;
 }
 
-.services {
-    width: 100%;
-    height: 516px;
-    background: #49b7dd;
-    color: #fff;
-    font-size: 36px;
-}
 
-.services p {
-    width: 200px;
-    margin: 0 auto;
-    padding-top:20px;
-    font-family: 'MyriadPro-Light';
-}
 
 
 .team {
-    width: 760px;
-    margin: 0 auto;
+    width:100%;
     font-family: 'PT Sans', sans-serif;
     text-align: center;
 }
-
-.team-member {
-    display: inline-block;
-    width: 240px;
-    margin-top: 60px;
-    vertical-align: top;
-    text-align: left;
+.team .team-member {
+padding:10%;
+}
+.team .ch-grid {
+    padding: 0;
+    list-style: outside none none;
+    display: block;
+    text-align:left;
+    width:100%;
+    font-size: 0;
+    overflow: hidden;
+}
+.team .ch-grid:after {
+    clear: both;
 }
 
-.team-member:not(:nth-child(3n+4)) {
-    margin-right: 12px;
+.team .ch-grid li {
+    vertical-align: top;
+    width:33.333%;
+    height: auto;
+    display: inline-block;
+    margin: 10px 0;
+
 }
 
 .team > h1 {
@@ -459,10 +442,11 @@ font-size: 28px;
 }
 
 .big-logo {
-    background-position: -2px -2px;
-    width:478px;
-    height:280px;
+    width:100%;
     margin: 130px auto 120px auto;
+}
+.big-logo img {
+max-width:75%;
 }
 
 .facts {
@@ -509,6 +493,13 @@ font-size: 28px;
 .benefits {
     height: 935px;
     position: relative;
+}
+.benefits h2 {
+    color: #1a8dc1;
+    font-family: "MyriadPro-Light";
+    font-size: 36px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .benefits-wrapper {
