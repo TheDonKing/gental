@@ -7,11 +7,11 @@
 
 @media screen and (max-width: 40em) {
 
-    .js .navbar-nav {
+     .navbar-nav {
         display:none;
     }
 
-    .js .slicknav_menu {
+    .slicknav_menu {
         display:block;
     }
 }

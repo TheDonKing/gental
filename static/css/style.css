@@ -125,19 +125,7 @@ img {
     margin:22.5px auto;
     width:100%;
 }
-.slicknav_menu {
-    display:none;
-}
 
-@media screen and (max-width: 40em) {
-    .js #nav {
-        display:none;
-    }
-
-    .slicknav_menu {
-        display:block;
-    }
-}
 .header .menu nav ul li {
     margin-right:5%;
 }
