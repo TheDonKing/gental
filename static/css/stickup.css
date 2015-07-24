@@ -11,7 +11,8 @@
 
 .navbar.navbar-inverse.navbar-static-top {
   background: #fff;
-  border-color: #398439;
+  border-bottom: 1px solid #f3f3f3;
+
 }
 .navbar.navbar-inverse.navbar-static-top a{
   color:#05b4cd;
