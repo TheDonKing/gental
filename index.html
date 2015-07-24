@@ -12,50 +12,23 @@
     <link rel="stylesheet" href="static/css/stickup.css">
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic'>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-
     <!-- Libs -->
     <link rel="stylesheet" href="static/css/isotop.css" />
     <link rel="stylesheet" href="static/css/bootstrap-responsive.css">
     <link rel="stylesheet" href="static/fonts/font-awesome/css/font-awesome.min.css">
-
-
 </head>
 <body>
 	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript">
-	(function (d, w, c) {
-	    (w[c] = w[c] || []).push(function() {
-	        try {
-	            w.yaCounter25966102 = new Ya.Metrika({id:25966102,
-	                    webvisor:true,
-	                    clickmap:true,
-	                    trackLinks:true,
-	                    accurateTrackBounce:true});
-	        } catch(e) { }
-	    });
-
-	    var n = d.getElementsByTagName("script")[0],
-	        s = d.createElement("script"),
-	        f = function () { n.parentNode.insertBefore(s, n); };
-	    s.type = "text/javascript";
-	    s.async = true;
-	    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-
-	    if (w.opera == "[object Opera]") {
-	        d.addEventListener("DOMContentLoaded", f, false);
-	    } else { f(); }
-	})(document, window, "yandex_metrika_callbacks");
-	</script>
+    <script src="static/js/metrika.js"></script>
 	<noscript><div><img src="//mc.yandex.ru/watch/25966102" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
-
-	<div id="home" class="wrapper">
+    <div id="home" class="wrapper">
 		<div class="header">
             <div class="navbar-wrapper menu navbar navbar-inverse navbar-static-top">
                 <div class="row">
                 <div class="logo"></div>
                 <nav class="navbar-collapse collapse">
-                    <ul class="nav1 navbar-nav">
+                    <ul class="navbar-nav">
                         <li class="menuItem active"><a class="scroll" href="#home">Главная</a></li>
                         <li class="menuItem"><a class="scroll" href="#services">Услуги</a></li>
                         <li class="menuItem"><a class="scroll" href="#why_vs">Почему мы</a></li>
@@ -83,9 +56,14 @@
 
                 <ul id="filter" class="clearfix">
                     <li><a href="" class="current btn" data-filter="*">Все</a></li>
-                    <li><a href="" class="btn" data-filter=".portfolio">Имплантация зубов</a></li>
-                    <li><a href="" class="btn" data-filter=".cutaway">Протезирование зубов</a></li>
-                    <li><a href="" class="btn" data-filter=".corporative">Чистка и отбеливание зубов</a></li>
+                    <li><a href="" class="btn" data-filter=".implants">Имплантация зубов</a></li>
+                    <li><a href="" class="btn" data-filter=".bite">Исправление прикуса</a></li>
+                    <li><a href="" class="btn" data-filter=".gum_treatment">Лечение десен</a></li>
+                    <li><a href="" class="btn" data-filter=".dental_treatment">Лечение зубов</a></li>
+                    <li><a href="" class="btn" data-filter=".prosthetics">Протезирование зубов</a></li>
+                    <li><a href="" class="btn" data-filter=".tooth_restoration">Реставрация зубов</a></li>
+                    <li><a href="" class="btn" data-filter=".removal">Удаление и хирургия</a></li>
+                    <li><a href="" class="btn" data-filter=".cleaning">Чистка и отбеливание зубов</a></li>
                 </ul>
 
                 <div class="works clearfix portfolio-list sort-destination">
@@ -599,7 +577,6 @@
     </script>
     <!--Скрол-->
     <script type="text/javascript" src="static/js/scroll.js"></script>
-
     <script src="static/js/custom.js"></script> <!-- не удалять -->
 
 
