@@ -72,7 +72,8 @@
     display: block;
     float: left;
     list-style: none;
-    margin-left: 9px;
+    margin-left:10px;
+    margin-bottom: 10px;
 }
  ul.clearfix {
     float: none;
@@ -86,13 +87,14 @@
     display: block;
     color: #666;
     text-decoration: dotted;
-    transition: all 0.9s ease;
+    transition: all 0.5s ease;
     font: 16px MyriadPro-Regular, sans-serif;
 }
 #filter li a:hover,
 #filter li a.current {
-    background: #666;
+    background: #05b4cd;
     color: #fff;
+    text-decoration: solid;
 
 
 
@@ -170,10 +172,10 @@ a.thumb-info span.thumb-info-action-icon i {
     top: -4px;
 }
 a.thumb-info:hover span.thumb-info-title {
-    background: #000000 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
 }
 a.thumb-info span.thumb-info-action {
-    background: rgba(36, 27, 28, 0.9) none repeat scroll 0 0;
+    background: rgba(73, 183, 221, 0.9) none repeat scroll 0 0;
     bottom: 0;
     color: #ffffff;
     height: 100%;
@@ -189,24 +191,26 @@ a.thumb-info span.thumb-info-inner {
     display: block;
     transition: all 0.3s ease 0s;
     white-space: nowrap;
+
 }
 a.thumb-info span.thumb-info-title {
-    background: rgba(36, 27, 28, 0.9) none repeat scroll 0 0;
+    background: rgba(73,183,221, 0.9) none repeat scroll 0 0;
     bottom: 10%;
-    color: #ffffff;
+    color: #0b0b0b;
     font-size:15px;
     font-weight: 700;
     left: 0;
     letter-spacing: 0.8px;
     padding: 9px 11px;
     position: absolute;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
     z-index: 1;
 }
+
 a.thumb-info span.thumb-info-type {
-    background-color: #49b7dd;
+    background-color: #fff626;
     border-radius: 2px;
     display: inline-block;
     float: left;
