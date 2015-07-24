@@ -14,6 +14,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <!-- Libs -->
     <link rel="stylesheet" href="static/css/isotop.css" />
+    <link rel="stylesheet" href="static/css/slicknav.css" />
     <link rel="stylesheet" href="static/css/bootstrap-responsive.css">
     <link rel="stylesheet" href="static/fonts/font-awesome/css/font-awesome.min.css">
 </head>
@@ -24,7 +25,7 @@
 	<!-- /Yandex.Metrika counter -->
     <div id="home" class="wrapper">
 		<div class="header">
-            <div class="navbar-wrapper menu navbar navbar-inverse navbar-static-top">
+            <div class="menu-responsive navbar-wrapper menu navbar navbar-inverse navbar-static-top">
                 <div class="row">
                 <div class="logo"></div>
                 <nav class="navbar-collapse collapse">
@@ -56,9 +57,6 @@
 
                 <ul id="filter" class="clearfix">
                     <!-- <li><a href="" class="current btn" data-filter="*">Все</a></li>-->
-
-
-                    
                     <li><a href="" class="current btn" data-filter=".implants">Имплантация зубов</a></li>
                     <li><a href="" class="btn" data-filter=".bite">Исправление прикуса</a></li>
                     <li><a href="" class="btn" data-filter=".gum_treatment">Лечение десен</a></li>
@@ -104,9 +102,9 @@
                     <article class="span3 work implants isotope-item">
                         <div>
                             <a href="#" class="thumb-info">
-                                <img alt="" src="static/img/projects/project.jpg">
+                                <img alt="" src="static/img/projects/implants/3.jpg">
 										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Классическая <br/>двухэтапная имплантация</span>
+											<span class="thumb-info-inner">Виды коронок на<br/>имплантаты</span>
 											<span class="thumb-info-type">Имплантация зубов</span>
 										</span>
 										<span class="thumb-info-action">
@@ -224,8 +222,8 @@
 
             </section>
 		</div>
-        <div id="why_vs"  class="how-we-work">
-        <div class="row">
+        <div   class="how-we-work">
+        <div id="why_vs" class="row">
             <h2>Почему мы </h2>
             <ul class="ch-grid">
                 <li>
@@ -267,8 +265,8 @@
                 <hr/> </div>
 
         </div>
-        <div id="team" class="team">
-            <div class="row">
+        <div class="team">
+            <div id="team" class="row">
                 <h2>Наша <span>Команда</span></h2>
                 <ul class="ch-grid">
                     <li>
@@ -592,14 +590,16 @@
             });
         });
     </script>
+    <!--Меню-responsive-->
+    <script type="text/javascript" src="static/js/slicknav/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#menu-responsive').slicknav();
+        });
+    </script>
     <!--Скрол-->
     <script type="text/javascript" src="static/js/scroll.js"></script>
     <script src="static/js/custom.js"></script> <!-- не удалять -->
-
-
-
-
-
 
 
 </body>
