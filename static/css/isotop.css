@@ -190,7 +190,7 @@ a.thumb-info span.thumb-info-action {
 a.thumb-info span.thumb-info-inner {
     display: block;
     transition: all 0.3s ease 0s;
-    white-space: nowrap;
+    white-space:pre-line;
 
 }
 a.thumb-info span.thumb-info-title {
