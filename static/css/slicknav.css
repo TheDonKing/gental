@@ -1,18 +1,31 @@
 /*
     Mobile Menu Core Style
 */
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/Myriad/MyriadPro-Regular.eot');
+    src: url('../fonts/Myriad/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Myriad/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/Myriad/MyriadPro-Regular.ttf') format('truetype'),
+    url('../fonts/Myriad/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 .slicknav_menu {
     display:none;
 }
 
 @media screen and (max-width: 40em) {
 
-     .navbar-nav {
+      .navbar-wrapper {
         display:none;
     }
 
-    .slicknav_menu {
+     .slicknav_menu {
         display:block;
+    }
+    #home{
+        padding-top: 50px;
     }
 }
 
@@ -24,7 +37,10 @@
 .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar { margin-top: 0.188em }
 .slicknav_nav { clear: both }
 .slicknav_nav ul,
-.slicknav_nav li { display: block }
+.slicknav_nav li {
+    display: block;
+    border-bottom:1px solid #f2f2f2 ;
+}
 .slicknav_nav .slicknav_arrow { font-size: 0.8em; margin: 0 0 0 0.4em; }
 .slicknav_nav .slicknav_item { cursor: pointer; }
 .slicknav_nav .slicknav_row { display: block; }
@@ -53,7 +69,7 @@
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;  
-    background-color:red;
+    background-color:#05b4cd;
 }
 /* Button Text */
 .slicknav_menu  .slicknav_menutxt {
@@ -68,7 +84,12 @@ font:15px MyriadPro Regular, Arial,Helvetica,sans-serif;
 .slicknav_menu {
     background:#fff;
     padding:5px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    margin-bottom: 50px;
 }
+
 .slicknav_nav {
     color:#fff;
     margin:0;
@@ -92,7 +113,7 @@ font:15px MyriadPro Regular, Arial,Helvetica,sans-serif;
     padding:5px 10px;
     margin:2px 5px;
     text-decoration:none;
-    color:red;
+    color:#05b4cd;
 }
 .slicknav_nav .slicknav_item a,
 .slicknav_nav .slicknav_parent-link a {
