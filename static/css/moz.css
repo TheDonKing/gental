@@ -1,7 +1,8 @@
-﻿@-moz-document url-prefix(http://g-dental.ru/)
-	{ 
+﻿@-moz-document url-prefix(http://gentle.loc/)
+	{
 	.benefits-list ol > li:before {
 	    left: -62px !important;
 	}
+    .benefits-list ol > li::before
 }
 

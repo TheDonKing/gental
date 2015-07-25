@@ -69,146 +69,15 @@
                 </ul>
 
                 <div class="works clearfix portfolio-list sort-destination">
-                    <article class="work implants span3 isotope-item">
-                        <div>
-                            <a href="#" class="thumb-info">
-                                <img alt="" src="static/img/projects/implants/1.jpg">
-                                <span class="thumb-info-title">
-                                    <span class="thumb-info-inner">Классическая двухэтапная имплантация</span>
-                                    <span class="thumb-info-type">Имплантация зубов</span>
-                                </span>
-                                <span class="thumb-info-action">
-                                    <span title="Universal" href="#" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-                                </span>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="span3 work implants isotope-item">
-                        <div>
-                            <a href="#" class="thumb-info">
-                                <img alt="" src="static/img/projects/implants/2.jpg">
-                                <span class="thumb-info-title">
-                                    <span class="thumb-info-inner">Однофазная имплантация зубов</span>
-                                    <span class="thumb-info-type">Имплантация зубов</span>
-                                </span>
-                                <span class="thumb-info-action">
-                                    <span title="Universal" href="#" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-                                </span>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="span3 work implants isotope-item">
-                        <div>
-                            <a href="#" class="thumb-info">
-                                <img alt="" src="static/img/projects/implants/3.jpg">
-                                <span class="thumb-info-title">
-                                    <span class="thumb-info-inner">Виды коронок на имплантаты</span>
-                                    <span class="thumb-info-type">Имплантация зубов</span>
-                                </span>
-                                <span class="thumb-info-action">
-                                    <span title="Universal" href="#" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-                                </span>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="span3 work implants isotope-item">
-                        <div>
-                            <a href="#" class="thumb-info">
-                                <img alt="" src="static/img/projects/implants/4.jpg">
-                                <span class="thumb-info-title">
-                                    <span class="thumb-info-inner">Одноэтапная имплантация с немедленной нагрузкой</span>
-                                    <span class="thumb-info-type">Имплантация зубов</span>
-                                </span>
-                                <span class="thumb-info-action">
-                                    <span title="Universal" href="#" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-                                </span>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="span3 work implants isotope-item">
-                        <div>
-                            <a href="#" class="thumb-info">
-                                <img alt="" src="static/img/projects/implants/5.jpg">
-                                <span class="thumb-info-title">
-                                    <span class="thumb-info-inner">Полная имплантация и протезирование</span>
-                                    <span class="thumb-info-type">Имплантация зубов</span>
-                                </span>
-                                <span class="thumb-info-action">
-                                    <span title="Universal" href="#" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-                                </span>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="work span3 implants isotope-item">
-                        <div>
-                            <a href="#" class="thumb-info">
-                                <img alt="" src="static/img/projects/implants/6.jpg">
-                                <span class="thumb-info-title">
-                                    <span class="thumb-info-inner">Съемные протезы на имплантатах</span>
-                                    <span class="thumb-info-type">Имплантация зубов</span>
-                                </span>
-                                <span class="thumb-info-action">
-                                    <span title="Universal" href="#" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-                                </span>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="work span3 bite isotope-item">
-                        <div>
-                            <a href="#" class="thumb-info">
-                                <img alt="" src="static/img/projects/project.jpg">
-                                <span class="thumb-info-title">
-                                    <span class="thumb-info-inner">Вестибулярные брекеты (внешние)</span>
-                                    <span class="thumb-info-type">Исправление прикуса</span>
-                                </span>
-                                <span class="thumb-info-action">
-                                    <span title="Universal" href="#" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-                                </span>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="work span3 bite isotope-item">
-                        <div>
-                            <a href="#" class="thumb-info">
-                                <img alt="" src="static/img/projects/project.jpg">
-                                <span class="thumb-info-title">
-                                    <span class="thumb-info-inner">Капы invisalign, orthosnap, star smile</span>
-                                    <span class="thumb-info-type">Исправление прикуса</span>
-                                </span>
-                                <span class="thumb-info-action">
-                                    <span title="Universal" href="#" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-                                </span>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="work span3 bite isotope-item">
-                        <div>
-                            <a href="#" class="thumb-info">
-                                <img alt="" src="static/img/projects/project.jpg">
-                                <span class="thumb-info-title">
-                                    <span class="thumb-info-inner">Невидимые брекеты (лингвальные)</span>
-                                    <span class="thumb-info-type">Исправление прикуса</span>
-                                </span>
-                                <span class="thumb-info-action">
-                                    <span title="Universal" href="#" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-                                </span>
-                            </a>
-                        </div>
-                    </article>
-                    <article class="work span3 bite isotope-item">
-                        <div>
-                            <a href="#" class="thumb-info">
-                                <img alt="" src="static/img/projects/project.jpg">
-                                <span class="thumb-info-title">
-                                    <span class="thumb-info-inner">Ортодонтические конструкции в помощь</span>
-                                    <span class="thumb-info-type">Исправление прикуса</span>
-                                </span>
-                                <span class="thumb-info-action">
-                                    <span title="Universal" href="#" class="thumb-info-action-icon"><i class="fa fa-link"></i></span>
-                                </span>
-                            </a>
-                        </div>
-                    </article>
+                    <?php include_once ('include/services/implants/implants.php');?>
+                    <?php include_once ('include/services/bite/bite.php');?>
+                    <?php include_once ('include/services/gum_treatment/gum_treatment.php');?>
+                    <?php include_once ('include/services/dental_treatment/dental_treatment.php');?>
+                    <?php include_once ('include/services/prosthetics/prosthetics.php');?>
+                    <?php include_once ('include/services/tooth_restoration/tooth_restoration.php');?>
+                    <?php include_once ('include/services/removal/removal.php');?>
+                    <?php include_once ('include/services/cleaning/cleaning.php');?>
+
                 </div>
             </section>
 		</div>
