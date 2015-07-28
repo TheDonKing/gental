@@ -7,7 +7,7 @@ $data_filter = "bite";
 
 <article class="work span3 <?php echo $data_filter;?> isotope-item">
     <div>
-        <a href="#" class="thumb-info">
+        <a  href="#" class="thumb-info">
             <img alt="" src="<?php echo $link."1.jpg"?>">
             <span class="thumb-info-title">
                 <span class="thumb-info-inner">Вестибулярные брекеты (внешние)</span>

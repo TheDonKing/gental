@@ -15,6 +15,11 @@
 
     <!-- Libs -->
     <link rel="stylesheet" href="static/css/isotop.css" />
+    <link rel="stylesheet" href="static/css/animate.min.css" />
+    <style>
+
+
+    </style>
     <link rel="stylesheet" href="static/css/slicknav.css" />
     <link rel="stylesheet" href="static/css/bootstrap-responsive.css">
     <link rel="stylesheet" href="static/fonts/font-awesome/css/font-awesome.min.css">
@@ -456,9 +461,39 @@
             $('#menu-responsive').slicknav();
         });
     </script>
+
     <!--Скрол-->
     <script type="text/javascript" src="static/js/scroll.js"></script>
     <script src="static/js/custom.js"></script> <!-- не удалять -->
+    <!--Modal-->
+    <script src="static/js/animatedmodal/animatedModal.js"></script>
+    <script>
+
+        //demo 01
+        $("#demo01").animatedModal();
+
+        //demo 02
+        $("#demo02").animatedModal({
+            modalTarget:'modal-02',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+            color:'#3498db',
+            // Callbacks
+            beforeOpen: function() {
+                console.log("The animation was called");
+            },
+            afterOpen: function() {
+                console.log("The animation is completed");
+            },
+            beforeClose: function() {
+                console.log("The animation was called");
+            },
+            afterClose: function() {
+                console.log("The animation is completed");
+            }
+        });
+
+    </script>
 
 
 </body>

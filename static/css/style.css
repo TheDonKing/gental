@@ -41,6 +41,17 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot?v=4.3.0');
+    src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'),
+    url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),
+    url('../fonts/font-awesome/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'),
+    url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),
+    url('../fonts/font-awesome/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .sprite {
     display:inline-block;
@@ -1124,6 +1135,97 @@ img {
     color: #f00;
     font-size: 17px;
     line-height: 50px
+}
+/* Модальные окна*/
+#btn-close-modal {
+    display: block;
+    position:fixed;
+    overflow: hidden;
+    top: 10px;
+    right:2.5%;
+    width: 25px;
+    cursor:pointer;
+    color:#fff;
+}
+.icon::before {
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+}
+.close-modal {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1em;
+    opacity: 0;
+    padding: 1em;
+    pointer-events: none;
+    top: 0;
+    transition: opacity 0.3s ease 0s;
+    z-index: 1000;
+}
+.close-modal:hover {
+    color: #f2f2f2;
+}
+.close-modal {
+    opacity: 1;
+    pointer-events: auto;
+}
+.close-modal::before {
+    content: "";
+}
+.modal-content-img{
+    width:100% ;
+    max-height:750px;
+    overflow: hidden;
+
+}
+.modal-content-img img{
+    width:100% ;
+    height:100%;
+
+}
+.services_name{
+    width: 100%;
+    font:30px 'MyriadPro-Regular', sans-serif;
+}
+.services_name h2{
+    font-size:36px;
+    text-align: center;
+    margin: 25px 0;
+}
+.services_name p{
+    width: 100%;
+    font:18px 'MyriadPro-Regular', sans-serif;
+    margin: 25px 0;
+}
+.services_name ul {
+    list-style: outside none none;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.services_name ul li {
+    padding: 0 0 2px 22px;
+    font-size:24px;
+}
+.services_name ul li.parent {
+    padding: 0 0 4px;
+}
+.services_name ul li::before {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    float: left;
+    height: 1px;
+    margin: 11px 0 0 -20px;
+    width: 16px;
+}
+.services_name ul li.parent::before {
+    display: none;
+}
+.services_name ul li.parent a {
+    text-decoration: none;
 }
 
 
