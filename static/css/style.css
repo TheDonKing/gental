@@ -1470,8 +1470,8 @@ img {
     }
     .form-2-wrapper{
         position: static;
-        margin: 35px 0;
-        width:95%;
+        margin: 35px 0 35px 5px;
+        width:96%;
         height: auto;
         overflow: hidden;
         right: 0;
@@ -1483,7 +1483,7 @@ img {
         width: 100%;
     }
     .form-2 label input[name="phone1"]{
-        width: 51px;
+        width: 49px;
     }
 
     .how-we-work .team ul.ch-grid li{
