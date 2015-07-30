@@ -815,8 +815,6 @@ img {
     background: #f1f1f1;
 }
 
-
-
 .reviews h2 {
     color: #000;
     font-family: 'MyriadPro-Light';
@@ -875,6 +873,37 @@ img {
     font-family: 'MyriadPro-Regular';
     line-height: 20px;
     overflow: hidden;
+}
+/* Shore more styles */
+
+.showmore_content{
+    position:relative;
+    overflow:hidden;
+
+}
+.showmore_trigger {
+    width:100%;
+    height:45px;
+    line-height:45px;
+    cursor:pointer;
+    text-align: center;
+}
+
+.showmore_trigger span	{
+      width:156px;
+      display:block;
+      color: #262626;
+      font: 22px'MyriadPro-Regular';
+      border-bottom: 1px dashed #262626 ;
+      margin: 0 auto;
+  }
+.showmore_trigger span:hover{
+    border-bottom: none ;
+
+}
+.showmore_trigger span.less	{
+    width:70px;
+
 }
 
 .licenses {
@@ -1483,7 +1512,7 @@ img {
         width: 100%;
     }
     .form-2 label input[name="phone1"]{
-        width: 49px;
+        width:35px;
     }
 
     .how-we-work .team ul.ch-grid li{

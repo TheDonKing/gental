@@ -13,12 +13,13 @@
     <link rel="stylesheet" href="static/css/stickup.css">
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic'>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
     <!-- Libs -->
     <link rel="stylesheet" href="static/css/isotop.css" />
     <link rel="stylesheet" href="static/css/animate.min.css" />
     <style>
-
 
     </style>
     <link rel="stylesheet" href="static/css/slicknav.css" />
@@ -293,7 +294,7 @@
 
 
         </div>
-        <div id="reviews"  class="reviews">
+        <div id="reviews"  class="reviews showmore_content">
             <div class="row">
                 <h2>Отзывы наших клиентов</h2>
                 <ul class="ch-grid">
@@ -405,6 +406,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="static/vendor/jquery-1.11.3.min.js"><\/script>')</script>
     <script src="static/js/jquery.isotope.min.js"></script>
+    <script src="static/js/example.js"></script>
     <script src="static/vendor/stickUp.js"></script>
     <script type="text/javascript">
         jQuery(function($) {
