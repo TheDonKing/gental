@@ -1258,6 +1258,9 @@ img {
         right:55%;
         bottom: 5%;
     }
+    .header img{
+        margin-top:15%;
+    }
     .note.blue{
         width: 382px;
     }
@@ -1270,6 +1273,9 @@ img {
     .note p:nth-child(3) {
         font-size: 18px;
 
+    }
+    .reviews .ch-grid li{
+        width: 46%;
     }
 
 
@@ -1290,11 +1296,85 @@ img {
         a.thumb-info span.thumb-info-title{
     font-size: 12px;
     }
+    .boxNote{
+        height: 150px;
+        right:55%;
+        bottom: 5%;
+    }
+    .note.blue{
+        width: 382px;
+    }
+    .header img{
+        margin-top:25%;
+    }
+
+    .note p {
+        font-size: 32px;
+    }
+    .note p:nth-child(2) {
+        font-size: 25px;
+    }
+    .note p:nth-child(3) {
+        font-size: 18px;
+
+    }
+    .reviews .ch-grid li{
+        width: 46%;
+    }
+    .dentist{
+        left: 0;
+    }
+    .form-2-wrapper{
+        right: 1.5%;
+    }
+
 
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px){
+    .header .menu nav li a {
+        width: 25%;
+        margin-bottom:1.5%;
+        padding: 14px;
+        font-size: 10px;
+    }
+    .note{
+        padding: 1em;
+    }
 
+    a.thumb-info span.thumb-info-title{
+        font-size: 12px;
+    }
+    .boxNote{
+        height: 150px;
+        right:55%;
+        bottom: 5%;
+    }
+    .header img{
+        margin-top:27%;
+    }
+    .note.blue{
+        width:255px;
+    }
+    .note p {
+        font-size:21px;
+    }
+    .note p:nth-child(2) {
+        font-size: 16px;
+    }
+    .note p:nth-child(3) {
+        font-size: 18px;
+
+    }
+    .reviews .ch-grid li{
+        width: 46%;
+    }
+    .dentist{
+        left: 0;
+    }
+    .form-2-wrapper{
+        right: 1.5%;
+    }
 
 }
 
@@ -1305,6 +1385,38 @@ img {
         padding-top: 12px;
         padding-bottom: 12px;
     }
+    .boxNote{
+        height: 150px;
+        right:55%;
+        bottom: 5%;
+    }
+    .team .ch-grid li{
+        width: 50%;
+    }
+
+    .note.blue{
+        width:255px;
+    }
+    .note p {
+        font-size:21px;
+    }
+    .note p:nth-child(2) {
+        font-size: 16px;
+    }
+    .note p:nth-child(3) {
+        font-size: 18px;
+
+    }
+    .reviews .ch-grid li{
+        width: 100%;
+    }
+    .dentist{
+        left: 35px;
+    }
+    .form-2-wrapper{
+        position: static;
+      margin: 35px;
+    }
 
 
 
@@ -1312,12 +1424,194 @@ img {
 
 @media only screen and (min-width: 241px) and (max-width: 480px){
     .header .menu nav li a {
-        font: 400 11px/1.4 'MyriadPro-Regular', Helvetica, Verdana, Arial, sans-serif;
+        width: 50%;
+        font: 400 12px/1.4 'MyriadPro-Regular', Helvetica, Verdana, Arial, sans-serif;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
+    .boxNote{
+        height: 150px;
+        right:55%;
+        bottom: 5%;
+    }
+    .team .ch-grid li{
+        width: 50%;
+    }
+
+    .note.blue{
+        display: none;
+    }
+
+    .reviews .ch-grid li{
+        width: 100%;
+        margin: 25px 21px;
+    }
+    .reviews ul.ch-grid li p{
+        max-width: 95%;
+    }
+    .reviews ul.ch-grid li img{
+        float: none;
+    }
+    .dentist{
+        left:0;
+        background-size: cover;
+        width: auto;
+        overflow: hidden;
+        max-height: 399px;
+    }
+    .badge{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .badge p{
+        width: 100%;
+        height: auto;
+    }
+    .form-2-wrapper{
+        position: static;
+        margin: 35px 0;
+        width:95%;
+        height: auto;
+        overflow: hidden;
+        right: 0;
+    }
+    .form-2{
+        width: 100%;
+    }
+    .form-2 .submit-btn{
+        width: 100%;
+    }
+    .form-2 label input[name="phone1"]{
+        width: 51px;
+    }
+
+    .how-we-work .team ul.ch-grid li{
+             width:95%;
+             height:auto;
+    }
+    .how-we-work .team ul.ch-grid li img{
+        width:100%;
+    }
+    .benefits-list > ol{
+        left: 0;
+    }
+    .benefits-list ol li p{
+        width:88%;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .benefits-list ol li:nth-child(odd){
+        margin-right: 0;
+    }
+    .contacts{
+        height: auto;
+    }
+    .contacts h1{
+        padding-top: 20px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .contacts p{
+        font-size: 34px;
+    }
+
+
+
 }
 @media only screen and (max-width: 240px){
     .header .menu nav li a {
-        font: 400 11px/1.4 'MyriadPro-Regular', Helvetica, Verdana, Arial, sans-serif;
+        width: 50%;
+        font: 400 12px/1.4 'MyriadPro-Regular', Helvetica, Verdana, Arial, sans-serif;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
+    .boxNote{
+        height: 150px;
+        right:55%;
+        bottom: 5%;
+    }
+    .team .ch-grid li{
+        width: 50%;
+    }
+
+    .note.blue{
+        display: none;
+    }
+
+    .reviews .ch-grid li{
+        width: 100%;
+        margin: 25px 21px;
+    }
+    .reviews ul.ch-grid li p{
+        max-width: 95%;
+    }
+    .reviews ul.ch-grid li img{
+        float: none;
+    }
+    .dentist{
+        left:0;
+        background-size: cover;
+        width: auto;
+        overflow: hidden;
+        max-height: 399px;
+    }
+    .badge{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .badge p{
+        width: 100%;
+        height: auto;
+    }
+    .form-2-wrapper{
+        position: static;
+        margin: 35px 0;
+        width:95%;
+        height: auto;
+        overflow: hidden;
+        right: 0;
+    }
+    .form-2{
+        width: 100%;
+    }
+    .form-2 .submit-btn{
+        width: 100%;
+    }
+    .form-2 label input[name="phone1"]{
+        width: 51px;
+    }
+
+    .how-we-work .team ul.ch-grid li{
+        width:95%;
+        height:auto;
+    }
+    .how-we-work .team ul.ch-grid li img{
+        width:100%;
+    }
+    .benefits-list > ol{
+        left: 0;
+    }
+    .benefits-list ol li p{
+        width:88%;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .benefits-list ol li:nth-child(odd){
+        margin-right: 0;
+    }
+    .contacts{
+        height: auto;
+    }
+    .contacts h1{
+        padding-top: 20px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+    .contacts p{
+        font-size: 34px;
+    }
+
 
 }

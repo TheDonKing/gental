@@ -1,8 +1,7 @@
 ﻿@-moz-document url-prefix(http://new.s-dt.ru/)
-	{
-	.benefits-list ol > li:before {
-	    left: -62px !important;
-	}
+{
+    .benefits-list ol > li:before {
+        left: -62px !important;
+    }
     .benefits-list ol > li::before
 }
-

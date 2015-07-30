@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="google-site-verification" content="yIQth2hF0ENKIxVJcB2yRsznuSLLJBQ9P5DBLx1wNeE">
 	<meta name="yandex-verification" content="4483495525519eff">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title>Стоматология Gentle Dental</title>
 	<meta name="description" content="Стоматологи с опытом более 7 лет. Качественное лечение зубов и десен.">
 	<link rel="stylesheet" href="static/vendor/reset.css">
@@ -254,7 +255,12 @@
                     </ol>
                 </div>
             </div>
-
+            <div  class="dentist">
+                <div class="badge">
+                    <p>главный врач</p>
+                    <p>Магомаева Зухлижат Магомедзакировна</p>
+                </div>
+            </div>
 
             <div class="form-2-wrapper">
                 <form class="form-2" name="form-2" action="form-2.php" method="post" role="form">
@@ -284,12 +290,7 @@
                     <button type="submit" class="submit-btn">Оставить отзыв</button>
                 </form>
             </div>
-            <div  class="dentist">
-                <div class="badge">
-                    <p>главный врач</p>
-                    <p>Магомаева Зухлижат Магомедзакировна</p>
-                </div>
-            </div>
+
 
         </div>
         <div id="reviews"  class="reviews">
