@@ -1237,6 +1237,147 @@ width: 100%;
     padding: 0;
     line-height: normal;
 }
+.services_name p, .services_name p img {
+    width: 100%;
+}
+/* Модальные окна -> Услуги -> Price*/
+.services_name table {
+    background: #f3f3f3 none repeat scroll 0 0;
+    font-size: 14px;
+    margin: 0 0 50px;
+}
+.services_name table th {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #c5c5c5;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 4px;
+    font-weight: 800;
+    padding: 13px 10px;
+    text-align: left;
+    color: #000;
+    font:17px 'MyriadPro-Regular';
+}
+.services_name table.services_name th {
+    width: 100%;
+
+}
+.services_name table td {
+    border-bottom:2px dotted #c5c5c5;
+    padding: 10px 20px 10px 30px;
+    color: #666666;
+    font:18px 'MyriadPro-Light';
+    line-height: normal;
+}
+
+.services_name table td:last-child {
+    white-space: nowrap;
+}
+.services_name .inner {
+    background: #f3f3f3 none repeat scroll 0 0;
+    border-bottom: 1px solid #c5c5c5;
+    overflow: hidden;
+    padding: 23px 9px 18px;
+}
+.services_name .innerText{
+    border-bottom: 1px solid #c5c5c5;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 21px;
+    padding: 0 0 7px;
+    text-align: center;
+}
+.services_name .innerText h2 {
+    border: medium none;
+    color: #d91a1a;
+    font:700 17px 'MyriadPro-Regular';
+    margin: 0;
+    text-transform: uppercase;
+}
+.services_name .innerText p {
+    color: #000;
+    font:700 17px 'MyriadPro-Regular';
+    margin: 0;
+    text-transform: uppercase;
+}
+.services_name .innerContent{
+    font-size: 13px;
+    margin: 0 0 0 -4px;
+    overflow: hidden;
+}
+.innerContent .vcard {
+    box-sizing: border-box;
+    float: left;
+    padding: 0 0 30px 17px;
+    width: 50%;
+}
+.innerContent .vcard .itemContent {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 63px 0 0;
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+    font: 700 14px/1.1 "MyriadPro-Regular",sans-serif;
+}
+.innerContent .vcard .itemContent img {
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px 0 0;
+    max-width:45%;
+}
+.innerContent .vcard .itemContent .text{
+    overflow: hidden;
+}
+.innerContent .vcard .itemContent .text h3 {
+    border: medium none;
+    margin: 10px 0 10px;
+    padding: 0;
+    color: #000;
+    font-size: 18px;
+}
+.innerContent .vcard .itemContent .text .job-profile{
+    color: #555555;
+    display: block;
+    line-height: 1.1;
+}
+.innerContent .vcard .itemContent .text .experience{
+    display: block;
+    font-weight: 700;
+    color: #000;
+    margin-top: 25px;
+}
+
+.innerContent .vcard .itemBtn {
+    border-radius: 0 0 5px 5px;
+    color: #ffffff;
+    display: block;
+    font:700 15px/27px 'MyriadPro-Regular';
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+.innerContent .vcard .itemBtn::after {
+    border-top: 1px solid #69cfaa;
+    content: "";
+    left: 10px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    z-index: 1;
+}
+.innerContent .vcard .itemBtn span {
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+    z-index: 2;
+}
+.itemBtn, .itemBtn span {
+    background: #2ba076 none repeat scroll 0 0;
+    text-decoration: none;
+    transition: background 0.1s linear 0s;
+}
 
 
 
