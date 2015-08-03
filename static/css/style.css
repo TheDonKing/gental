@@ -277,7 +277,7 @@ img {
 .services p {
     width: 200px;
     margin: 0 auto;
-    padding-top:30px;
+    padding-top: 30px;
     font-family: 'MyriadPro-Light';
 }
 
@@ -1174,7 +1174,7 @@ img {
     right:2.5%;
     width: 25px;
     cursor:pointer;
-    color:#fff;
+    color:#0b0b0b;
 }
 .icon::before {
     font-family: "FontAwesome";
@@ -1185,7 +1185,7 @@ img {
     text-transform: none;
 }
 .close-modal {
-    color: #fff;
+    color: #0b0b0b;
     cursor: pointer;
     font-size: 1.1em;
     opacity: 0;
@@ -1196,7 +1196,7 @@ img {
     z-index: 1000;
 }
 .close-modal:hover {
-    color: #f2f2f2;
+    color: #0b0b0b;
 }
 .close-modal {
     opacity: 1;
@@ -1205,57 +1205,39 @@ img {
 .close-modal::before {
     content: "";
 }
-.modal-content-img{
-    width:100% ;
-    max-height:750px;
-    overflow: hidden;
 
+/* Модальные окна - Услуги*/
+.services_name hr{
+    color: #0caef2;
+    height: 2px;
 }
-.modal-content-img img{
-    width:100% ;
-    height:100%;
-
-}
-.services_name{
-    width: 100%;
-    font:30px 'MyriadPro-Regular', sans-serif;
-}
-.services_name h2{
-    font-size:36px;
+.modal-content h2{
+    font-family: 'MyriadPro-Regular';
+    font-size: 36px;
+    color: #0caef2;
+    padding-top: 30px;
     text-align: center;
-    margin: 25px 0;
 }
-.services_name p{
-    width: 100%;
-    font:18px 'MyriadPro-Regular', sans-serif;
-    margin: 25px 0;
+.services_name .add-content {
+    background: rgba(0, 0, 0, 0) url("../img/add.jpg") repeat scroll 0 0;
+    padding: 17px;
 }
-.services_name ul {
-    list-style: outside none none;
-    margin: 0 0 10px;
+
+.services_name .add-content {
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    padding: 17px;
+}
+.services_name .add-content p {
+width: 100%;
     padding: 0;
+    line-height: normal;
 }
-.services_name ul li {
-    padding: 0 0 2px 22px;
-    font-size:24px;
-}
-.services_name ul li.parent {
-    padding: 0 0 4px;
-}
-.services_name ul li::before {
-    background: #fff none repeat scroll 0 0;
-    content: "";
-    float: left;
-    height: 1px;
-    margin: 11px 0 0 -20px;
-    width: 16px;
-}
-.services_name ul li.parent::before {
-    display: none;
-}
-.services_name ul li.parent a {
-    text-decoration: none;
-}
+
 
 
 /* MEDIA QUERIES*/
@@ -1642,5 +1624,11 @@ img {
         font-size: 34px;
     }
 
+
+}
+
+*::-moz-placeholder {
+    color: #777777;
+    opacity: 1;
 
 }

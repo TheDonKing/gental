@@ -480,7 +480,7 @@
             modalTarget:'modal-02',
             animatedIn:' zoomIn',
             animatedOut:'zoomOut',
-            color:'#3498db',
+            color:'#fff',
             // Callbacks
             beforeOpen: function() {
                 console.log("The animation was called");
