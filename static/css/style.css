@@ -352,8 +352,9 @@ img {
 }
 
 .icon-description p {
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
 }
 
 .row .col i {
@@ -813,11 +814,59 @@ img {
 
 .reviews {
     background: #f1f1f1;
+    font-family: 'MyriadPro-Regular';
 }
+.description {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.description hr {
+    width: 100%;
+    color: #666;
+    background-color: #666;
+}
+.description-box {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.description-box p {
+    color: #000;
+    text-align: left;
+    padding-left: 25px;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+
+.reviews .row .description-box:nth-child(3)> p:before {
+    content: "";
+    width:58px;
+    height: 54px;
+    background: url(../img/clients/sprite.png) 0 57px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.reviews .row .description-box:nth-child(2)> p:before {
+    content: "";
+    width:58px;
+    height: 54px;
+    background: url(../img/clients/sprite.png) 57px 56px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+
+}
+
 
 .reviews h2 {
     color: #000;
-    font-family: 'MyriadPro-Light';
+    font-family: 'MyriadPro-Light',sans-serif;
     font-size: 36px;
     text-align: center;
     padding: 32px 0 22px 0;
@@ -841,8 +890,6 @@ img {
     width:47%;
 }
 
-
-
 .reviews li img {
     width: 97px;
     height: 97px;
@@ -855,24 +902,60 @@ img {
 
 .reviews li h4 {
     color: #000;
-    font-family: 'MyriadPro-Bold';
+    font-family: MyriadPro-Bold,sans-serif;
     font-size: 19px;
     margin-top: 10px;
 }
 
 .reviews li small {
     color: #7a7a7a;
-    font-family: 'MyriadPro-Regular';
     font-size: 15px;
     line-height: 24px;
+}
+.reviews li small.vRow {
+     display: block;
+     margin-bottom: 10px;
+ }
+.reviews li small.vRow a {
+color: #0c587e;
+    text-decoration:none;
+    border-bottom: 1px dotted #0c587e;
 }
 
 .reviews li p {
     max-width:65%;
     color: #262626;
-    font-family: 'MyriadPro-Regular';
+
     line-height: 20px;
     overflow: hidden;
+}
+.perfectly{
+    margin:7px;
+}
+.perfectly span{
+    margin: 0;
+    padding-right: 10px;
+}
+.perfectly span:nth-child(1):before{
+    content: "";
+    width:25px;
+    height:24px;
+    background: url(../img/clients/sprite-min.png) 51px 0;
+    display: inline-block;
+    float: left;
+}
+.perfectly span:nth-child(2):before{
+    content: "";
+    width:25px;
+    height:24px;
+    background: url(../img/clients/sprite-min.png) 25px 0;
+    display: inline-block;
+}
+.perfectly span:nth-child(1){
+    color: #ffb902;
+}
+.perfectly span:nth-child(2){
+    color: #40cbf0;
 }
 /* Shore more styles */
 
@@ -1236,7 +1319,40 @@ img {
 width: 100%;
     padding: 0;
     line-height: normal;
+    margin-bottom: 25px;
 }
+.services_name .add-content h3 {
+    font-family: 'MyriadPro-Regular';
+    font-size:40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.services_name .add-content hr {
+    background-clip: border-box;
+    height: 45px;
+    margin: 0 auto;
+    width: 90%;
+}
+.services_name .add-content .hr {
+    background-clip: border-box;
+    height: 45px;
+    margin: 0 auto;
+    width:100%;
+}
+.services_name .add-content .hr img {
+    float: left;
+    width: 10%;
+}
+.services_name .add-content hr {
+    background-color: #fff;
+    border: medium none;
+    color: #fff;
+    float: left;
+    height: 1px;
+    margin: 22.5px 2%;
+    width: 40%;
+}
+
 .services_name p, .services_name p img {
     width: 100%;
 }
@@ -1569,7 +1685,10 @@ width: 100%;
         position: static;
       margin: 35px;
     }
-
+    .innerContent .vcard{
+        float: none;
+        width: 100%;
+    }
 
 
 }
@@ -1666,6 +1785,10 @@ width: 100%;
     }
     .contacts p{
         font-size: 34px;
+    }
+    .innerContent .vcard{
+        float: none;
+        width: 100%;
     }
 
 

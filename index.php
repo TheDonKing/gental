@@ -96,7 +96,7 @@
                     <div class="icon-feature-horizontal">
                         <i class="icon-1 sprite"></i>
                         <div class="icon-description">
-                            <p>Мы работаем с лучшими зубными техниками Махачкалы</p>
+                            <p>Партнеры лучших систем техники Dentium (Южная Корея), SGS (Швейцария), Bicon (США), Dentsply Friadent (Германия), AlfaBio (Израиль)</p>
                         </div>
                     </div>
                 </li>
@@ -128,7 +128,8 @@
             </ul>
             <div class="hr"> <hr/>
                 <img src="static/img/hr.jpg" alt=""/>
-                <hr/> </div>
+                <hr/>
+            </div>
 
         </div>
         <div class="team">
@@ -296,78 +297,123 @@
         </div>
         <div id="reviews"  class="reviews showmore_content">
             <div class="row">
+                <div class="description">
                 <h2>Отзывы наших клиентов</h2>
+                <div class="description-box">
+                    <p>Оценка профессионального уровня <br/> специалистов и качества лечения</p>
+                </div>
+                <div class="description-box">
+                    <p>Оценка уровня сервиса и лояльности <br/>администрации к клиенту</p>
+                </div>
+                    <hr/>
+                </div>
                 <ul class="ch-grid">
                     <li>
                         <img src="static/img/clients/profile-woman.png" height="213" width="214">
                         <h4>Мадина</h4>
                         <small>motya170192@mail.ru</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x"> Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>Уже полгода лечусь в этой стоматологии. Прекрасные специалисты, обходительные, вежливые, очень приятные. Мне провели очень большой курс лечения, включая удаления нервов. За это время я полностью перестала бояться стоматологов и уколов. От всей души благодарна стоматологии Gentle Dental )))))</p>
                     </li>
                     <li>
                         <img src="static/img/clients/profile-man.png" height="213" width="214">
                         <h4>Абакар</h4>
                         <small>abakar@gmail.com</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>Сервис имеет очень высокий уровень.</p>
                     </li>
                     <li>
                         <img src="static/img/clients/profile-man.png" height="213" width="214">
                         <h4>Гена</h4>
                         <small>gena@gmail.com</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>Всем советую.</p>
                     </li>
                     <li>
                         <img src="static/img/clients/profile-woman.png" height="213" width="214">
                         <h4>Джамиля</h4>
                         <small>piepim@mail.ru</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>Спасибо вам большое, вы самая лучшая стоматологическая клиника в Дагестане и не только, я убедилась в этом на собственном опыте.. Я осталась довольна и даже больше.</p>
                     </li>
                     <li>
                         <img src="static/img/clients/profile-woman.png" height="213" width="214">
                         <h4>Тевриз</h4>
                         <small>tevriznazaralieva@mail.ru</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>Хочу сказать большое спасибо Зухлижат Магомедзакировне. Настоящий профессионал своего дела. Повидала много стоматологов, но теперь буду ходить только к ней.</p>
                     </li>
                     <li>
                         <img src="static/img/clients/profile-woman.png" height="213" width="214">
                         <h4>Карина</h4>
                         <small>karina-k14@mail.ru</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>Спасибо большое Шугаибовой Аните! Свою работу делает грамотно, пломбу от зуба не отличишь, идеально!</p>
                     </li>
                     <li>
                         <img src="static/img/clients/profile-woman.png" height="213" width="214">
                         <h4>Муся</h4>
                         <small>musyash19@mail.ru</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>Делала в этой клинике зуб, очень боюсь врачей, а стоматологов больше всего, поэтому сильно запустила зуб, от него остался один кусочек, я пошла чтобы его выдернуть, а вместо этого мне врач нарастил зуб, не было ни капельки больно, спасибо этой клинике и врачам, которые там работают.</p>
                     </li>
                     <li>
                         <img src="static/img/clients/profile-woman.png" height="213" width="214">
                         <h4>Таиса</h4>
                         <small>taisa.kasimova@mail.ru</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>После посещения стоматологии Gentle - Dental мои дети перестали бояться зубных врачей.</p>
                     </li>
                     <li>
                         <img src="static/img/clients/profile-woman.png" height="213" width="214">
                         <h4>Cалимат</h4>
                         <small>salya91@mail.ru</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>Я не беспокоюсь по поводу стерильности в этой стоматологии. Очень чисто, качественно и без боли.</p>
                     </li>
                     <li>
                         <img src="static/img/clients/profile-woman.png" height="213" width="214">
                         <h4>Марьяна</h4>
                         <small>oscar-maksi@mail.ru</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x"> Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>Дважды побывала в этой клинике. Пока только на профессиональной чистке зубов и диагностике полости рта. Мне очень понравилось отношение - все ну оооочень доброжелательны и участливы!</p>
                     </li>
                     <li>
                         <img src="static/img/clients/profile-woman.png" height="213" width="214">
                         <h4>Тамерлан</h4>
                         <small>president-05@mail.ru</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>Расскажу о своем визите в клинику и о своих впечатлениях. Пришел в острейшей зубной болью, таблетки не помогали, боль была жуткая, мне врач показала этот зуб на мониторе и рассказала, что с ним не так, само лечение прошло довольно комфортно, страх улетучился почти сразу, отличная стоматология. Рад что попал в хорошее место и к хорошему доктору, от души благодарен.</p>
                     </li>
                     <li>
                         <img src="static/img/clients/profile-woman.png" height="213" width="214">
                         <h4>Насим</h4>
                         <small>nasim302@mail.ru</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
                         <p>Я не беспокоюсь по поводу стерильности в этой стоматологии. Очень чисто, качественно и без боли.</p>
                     </li>
                 </ul>

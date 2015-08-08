@@ -1,7 +1,7 @@
 <?php
-$to = "clinic@g-dental.ru";
+$to = "vgalam@mail.ru";
 $from = "clinic@g-dental.ru";
-$successPage = "index.html";
+$successPage = "index.php";
 
 $name = $_POST['name'];
 $email = $_POST['email'];
