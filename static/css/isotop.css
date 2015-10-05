@@ -175,7 +175,7 @@ a.thumb-info:hover span.thumb-info-title {
     background: #fff none repeat scroll 0 0;
 }
 a.thumb-info span.thumb-info-action {
-    background: rgba(73, 183, 221, 0.9) none repeat scroll 0 0;
+    background: rgba(56, 78, 86, 0.5) none repeat scroll 0 0;
     bottom: 0;
     color: #ffffff;
     height: 100%;
@@ -194,9 +194,9 @@ a.thumb-info span.thumb-info-inner {
 
 }
 a.thumb-info span.thumb-info-title {
-    background: rgba(73,183,221, 0.9) none repeat scroll 0 0;
+    background: rgba(50, 50, 61, 1) none repeat scroll 0 0;
     bottom: 10%;
-    color: #0b0b0b;
+    color: #8D8DA1;
     font-size:15px;
     font-weight: 700;
     left: 0;
@@ -210,7 +210,7 @@ a.thumb-info span.thumb-info-title {
 }
 
 a.thumb-info span.thumb-info-type {
-    background-color: #fff626;
+    background-color: #E6E6FF;
     border-radius: 2px;
     display: inline-block;
     float: left;

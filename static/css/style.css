@@ -56,7 +56,7 @@
 .sprite {
     display:inline-block;
     overflow:hidden;
-    background: url('../img/sprite.png') no-repeat;
+    background: url('../img/spritez.png') no-repeat;
 }
 
 body {
@@ -268,7 +268,7 @@ img {
 .services {
     width: 100%;
     height:auto;
-    background: #49b7dd;
+    background: #49b7dd url(http://g-dental.ru/static/img/back.png) repeat repeat;;
     color: #fff;
     font-size: 36px;
     overflow: hidden;

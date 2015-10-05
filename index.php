@@ -310,6 +310,114 @@
                 <ul class="ch-grid">
                     <li>
                         <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <h4>Зульфия</h4>
+                        <small>Дата заполнения: 29.07.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Зуля-прекрасный врач и хороший психолог. Умеет общаться с клиентом. Спасибо ей и всему коллективу!</p>
+                    </li>
+					<li>
+                        <img src="static/img/clients/profile-man.png" height="213" width="214">
+                        <h4>Магомедрасул</h4>
+                        <small>Дата заполнения: 29.07.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x"> Лечение десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Молодцы! Отличные специалисты!</p>
+                    </li>
+					<li>
+                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <h4>Аминат</h4>
+                        <small>Дата заполнения: 29.07.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x"> </a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Я в полном восторге!</p>
+                    </li>
+					<li>
+                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <h4>Умжат</h4>
+                        <small>Дата заполнения: 29.07.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x"> </a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Дружный, приятный, улыбчивый коллектив. Любые процедуры проходят безболезненно. Я всем довольна.</p>
+                    </li>
+					<li>
+                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <h4>Тайибат</h4>
+                        <small>Дата заполнения: 29.07.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x"> </a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Мне всё понравилось! Отличные специалисты!</p>
+                    </li>
+					<li>
+                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <h4>Барият</h4>
+                        <small>Дата заполнения: 29.07.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Очень доволна результатом! Спасибо вам!</p>
+                    </li>
+					<li>
+                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <h4>Наргиз</h4>
+                        <small>Дата заполнения: 29.07.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Я рада, что нашла таких специалистов. Спасибо вам.</p>
+                    </li>
+					<li>
+                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <h4>Раисат</h4>
+                        <small>Дата заполнения: 29.07.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x"> </a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Желаю всему персоналу и всему центру благополучия и процветания! Не останавливайтесь на достигнутом!</p>
+                    </li>
+					<li>
+                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <h4>Мадина</h4>
+                        <small>Дата заполнения: 30.07.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x"> </a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Мне очень понравилось! Отличный сервис и приветливый персонал.</p>
+                    </li>
+					<li>
+                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <h4>Патимат</h4>
+                        <small>Дата заполнения: 30.07.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов и десен</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Всё понравилось!</p>
+                    </li>
+					<li>
+                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <h4>Саният</h4>
+                        <small>Дата заполнения: 5.08.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Я очень довольна! Очень эффективно и быстро лечат зубы и, главное, безболезненно.</p>
+                    </li>
+					<li>
+                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <h4>Муслимат</h4>
+                        <small>Дата заполнения: 6.08.2015г.</small>
+                        <br/>
+                        <small class="vRow">Вид услуги: <a href="x">Лечение зубов</a></small>
+                        <p class="perfectly"><span>отлично </span><span> отлично</span></p>
+                        <p>Благодарю за столь безболезненное лечение зубов.</p>
+                    </li>
+                    <li>
+                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
                         <h4>Мадина</h4>
                         <small>motya170192@mail.ru</small>
                         <br/>
@@ -399,7 +507,7 @@
                         <p>Дважды побывала в этой клинике. Пока только на профессиональной чистке зубов и диагностике полости рта. Мне очень понравилось отношение - все ну оооочень доброжелательны и участливы!</p>
                     </li>
                     <li>
-                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <img src="static/img/clients/profile-man.png" height="213" width="214">
                         <h4>Тамерлан</h4>
                         <small>president-05@mail.ru</small>
                         <br/>
@@ -408,7 +516,7 @@
                         <p>Расскажу о своем визите в клинику и о своих впечатлениях. Пришел в острейшей зубной болью, таблетки не помогали, боль была жуткая, мне врач показала этот зуб на мониторе и рассказала, что с ним не так, само лечение прошло довольно комфортно, страх улетучился почти сразу, отличная стоматология. Рад что попал в хорошее место и к хорошему доктору, от души благодарен.</p>
                     </li>
                     <li>
-                        <img src="static/img/clients/profile-woman.png" height="213" width="214">
+                        <img src="static/img/clients/profile-man.png" height="213" width="214">
                         <h4>Насим</h4>
                         <small>nasim302@mail.ru</small>
                         <br/>
@@ -516,34 +624,301 @@
     <script src="static/js/custom.js"></script> <!-- не удалять -->
     <!--Modal-->
     <script src="static/js/animatedmodal/animatedModal.js"></script>
+    
+    <!-- ZenaHunter модули -->
     <script>
-
+    
+//Имплантация зубов
         //demo 01
-        $("#demo01").animatedModal();
-
-        //demo 02
-        $("#demo02").animatedModal({
-            modalTarget:'modal-02',
+        $("#demo01").animatedModal({
+             modalTarget:'modal-01',
+            color:'#fff',
             animatedIn:' zoomIn',
             animatedOut:'zoomOut',
+        });
+        
+         //demo 011
+        $("#demo011").animatedModal({
+             modalTarget:'modal-011',
             color:'#fff',
-            // Callbacks
-            beforeOpen: function() {
-                console.log("The animation was called");
-            },
-            afterOpen: function() {
-                console.log("The animation is completed");
-            },
-            beforeClose: function() {
-                console.log("The animation was called");
-            },
-            afterClose: function() {
-                console.log("The animation is completed");
-            }
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 12
+        $("#demo012").animatedModal({
+             modalTarget:'modal-012',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 013
+        $("#demo013").animatedModal({
+             modalTarget:'modal-013',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 014
+        $("#demo014").animatedModal({
+             modalTarget:'modal-014',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 015
+        $("#demo015").animatedModal({
+             modalTarget:'modal-015',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+//Исправление прикуса        
+        //demo 02
+        $("#demo02").animatedModal({
+             modalTarget:'modal-02',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+        //demo 021
+        $("#demo021").animatedModal({
+             modalTarget:'modal-021',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+        //demo 022
+        $("#demo022").animatedModal({
+             modalTarget:'modal-022',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+        //demo 023
+        $("#demo023").animatedModal({
+             modalTarget:'modal-023',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
         });
 
+
+//Лечение десен
+        //demo 03
+        $("#demo03").animatedModal({
+             modalTarget:'modal-03',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+
+        //demo 031
+        $("#demo031").animatedModal({
+             modalTarget:'modal-031',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+
+        //demo 032
+        $("#demo032").animatedModal({
+             modalTarget:'modal-032',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+
+
+
+//Лечение зубов        
+        //demo 04
+        $("#demo04").animatedModal({
+             modalTarget:'modal-04',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+
+        //demo 041
+        $("#demo041").animatedModal({
+             modalTarget:'modal-041',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+
+        //demo 042
+        $("#demo042").animatedModal({
+             modalTarget:'modal-042',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+
+//Протезирование зубов        
+        //demo 05
+        $("#demo05").animatedModal({
+             modalTarget:'modal-05',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+        //demo 051
+        $("#demo051").animatedModal({
+             modalTarget:'modal-051',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+        //demo 052
+        $("#demo052").animatedModal({
+             modalTarget:'modal-052',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+        //demo 053
+        $("#demo053").animatedModal({
+             modalTarget:'modal-053',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+        
+//Реставрация зубов        
+        //demo 06
+        $("#demo06").animatedModal({
+             modalTarget:'modal-06',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 061
+        $("#demo061").animatedModal({
+             modalTarget:'modal-061',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 062
+        $("#demo062").animatedModal({
+             modalTarget:'modal-062',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 063
+        $("#demo063").animatedModal({
+             modalTarget:'modal-063',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 064
+        $("#demo064").animatedModal({
+             modalTarget:'modal-064',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+        
+//Удаление и хирургия        
+        //demo 07
+        $("#demo07").animatedModal({
+             modalTarget:'modal-07',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 071
+        $("#demo071").animatedModal({
+             modalTarget:'modal-071',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 072
+        $("#demo072").animatedModal({
+             modalTarget:'modal-072',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 073
+        $("#demo073").animatedModal({
+             modalTarget:'modal-073',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+        
+//Чистка и отбеливание зубов        
+        //demo 08
+        $("#demo08").animatedModal({
+             modalTarget:'modal-08',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 081
+        $("#demo081").animatedModal({
+             modalTarget:'modal-081',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 082
+        $("#demo082").animatedModal({
+             modalTarget:'modal-082',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 083
+        $("#demo083").animatedModal({
+             modalTarget:'modal-083',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+         //demo 084
+        $("#demo084").animatedModal({
+             modalTarget:'modal-084',
+            color:'#fff',
+            animatedIn:' zoomIn',
+            animatedOut:'zoomOut',
+        });
+        
+
     </script>
-
-
+<script type="text/javascript" src="//cdn.callbackhunter.com/cbh.js?hunter_code=2e54d2d6110be80dd86a08ce7fd30664" charset="UTF-8"></script>
 </body>
 </html>
